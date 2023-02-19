@@ -16,3 +16,7 @@ Es requereix tenir Arduino IDE instal·lat i les llibreries que són necessaries
 Les plaques que es fan servir són: T-BEAM i LyliGo LoRa V1.0
 
 Una delles està pensada per anar en el globus sonda i l'altre per rebre els missatges de telemetria a través de LoRa.
+
+La següent imatge presenta la configuració clàssica de ordinador d'abord i el receptor terrestre. Es requereix fer ús d'una baterial de LiPo 18650 per l'ordinador d'abord i una targa SD de 8 GB. També es recomanable posar un punt de sil·licona a les soldadures per garantir que no es faran malbé en el moment de l'impacte. 
+
+![Setup d'Exemple](https://github.com/GoSTEM-Education/GoSTEM_SONDA_ESTRATOSFERICA/blob/main/setup_demo.jpg?raw=true)
