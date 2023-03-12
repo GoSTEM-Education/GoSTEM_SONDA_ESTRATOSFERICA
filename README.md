@@ -42,10 +42,18 @@ TEMPERATURA,PRESSURE,ALTITUDE,LATITUDE,LONGITUDE,SPEED,COURSE,TIMERX
 ```
 Auesta es la frase que s'envia per LORA al receptor de terra i que serà guardat mitjançant PuTy. Mitjançant el cody en pyton de Plotte de GoSTEM es podrà graficar.
 
+Per carregar el Ordinador de Bord seguir els següents passos:
+1. Connectar per USB a un ordinador la PCB. 
+2. De forma automàtica aquesta s'encen i es veurà la llum vermella de Power encesa. Fent servir el boto de PWR aguantar-lo i apagar la placa.
+3. No ha de quedar cap llum encesa, deixar connectat al ordinador apx entre 2 i 3 hores
+4. Amb un mulímetre sense treure la bateria de la PCB i posant el punter del multimetre a cada un dels born exposats es pot veure com el voltage de la pila canvia. 
+5. Descarregada completament: 2.5V-3V // Carregada completament: 4.2 V
+
 **IMPORTANT, WARNINGS!:**
 ```diff
 - ES ESSENCIAL MAI ENCENDRE LA PLACA AMB LES ANTENES LORA I GPS DESCONECTADES. SI ES FA AIXÍ HI HA RISC DE CREMAR L'ELECTRONICA!!!
 - Si s'està a interior i no hi ha GPS es normal que les dades de hora i posició siguin nul·les
 - Són elements d'electrònica delicat i d'altes prestacions, es important tractar-los com a tals
 - Es important llegir quina es la normativa de l'utilització de freqüències LoRa (https://avbentem.github.io/airtime-calculator/ttn/eu868)
+- No treure la Bateria de la PCB
 ```
