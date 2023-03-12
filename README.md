@@ -46,4 +46,5 @@ Auesta es la frase que s'envia per LORA al receptor de terra i que serà guardat
 ```diff
 - ES ESSENCIAL MAI ENCENDRE LA PLACA AMB LES ANTENES LORA I GPS DESCONECTADES. SI ES FA AIXÍ HI HA RISC DE CREMAR L'ELECTRONICA!!!
 - Si s'està a interior i no hi ha GPS es normal que les dades de hora i posició siguin nul·les
+- Són elements d'electrònica delicat i d'altes prestacions, es important tractar-los com a tals
 ```
