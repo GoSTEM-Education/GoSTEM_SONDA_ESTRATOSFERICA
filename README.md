@@ -34,7 +34,7 @@ Approx. Altitude = 103.14 m
 ```
 Quant faci dues pampalluges de color blau seguides i de forma intermitant vol dir que està generant els missatges correctament, els està enviant i emagatzemant. Altres codis de llums inidquen un mal funcionament, es recomana fer un reset de la placa amb el boto dedicat o apagar-la i tornar-la a encendre amb el boto dedicat.
 
-Les dades que es guarden a la SD de l'ordinador de bord tene el següent format
+Les dades que es guarden a la SD de l'ordinador de bord tene el següent format. Les dades que s'envien per LoRA son imilars però reduides en tamany. 
 ```
 TEMPERATURA,PRESSURE,ALTITUDE,LATITUDE,LONGITUDE,SPEED,COURSE,TIMERX
 17.03,907.54,968.54,42.553662,1.325715,30.6,246.8,9:17:28,.559038,
@@ -47,4 +47,5 @@ Auesta es la frase que s'envia per LORA al receptor de terra i que serà guardat
 - ES ESSENCIAL MAI ENCENDRE LA PLACA AMB LES ANTENES LORA I GPS DESCONECTADES. SI ES FA AIXÍ HI HA RISC DE CREMAR L'ELECTRONICA!!!
 - Si s'està a interior i no hi ha GPS es normal que les dades de hora i posició siguin nul·les
 - Són elements d'electrònica delicat i d'altes prestacions, es important tractar-los com a tals
+- Es important llegir quina es la normativa de l'utilització de freqüències LoRa (https://avbentem.github.io/airtime-calculator/ttn/eu868)
 ```
