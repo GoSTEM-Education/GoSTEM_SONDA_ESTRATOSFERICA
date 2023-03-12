@@ -24,15 +24,24 @@ La següent imatge presenta la configuració clàssica de ordinador d'abord i el
 
 L'ordinador de bord un cop connectat al PC enviarà els següents missatges:
 
-'''
+```
 Data Logged in SD Card
 LoRa Paquet Send Succesfully
 No Fix - Num. satellites: (Minimum 5)0
 Temperature = 20.39 °C
 Pressure = 1006.85 hPa
 Approx. Altitude = 103.14 m
-'''
+```
 
+Les dades que es guarden a la SD de l'ordinador de bord tene el següent format
+```
+TEMPERATURA,PRESSURE,ALTITUDE,LATITUDE,LONGITUDE,SPEED,COURSE,TIMERX
+17.03,907.54,968.54,42.553662,1.325715,30.6,246.8,9:17:28,.559038,
 
-IMPORTANT, WARNINGS!:
-ES ESSENCIAL MAI ENCENDRE LA PLACA AMB LES ANTENES LORA I GPS DESCONECTADES. SI ES FA AIXÍ HI HA RISC DE CREMAR L'ELECTRONICA!!!
+```
+Auesta es la frase que s'envia per LORA al receptor de terra i que serà guardat mitjançant PuTy. Mitjançant el cody en pyton de Plotte de GoSTEM es podrà graficar.
+
+**IMPORTANT, WARNINGS!:**
+```diff
+- ES ESSENCIAL MAI ENCENDRE LA PLACA AMB LES ANTENES LORA I GPS DESCONECTADES. SI ES FA AIXÍ HI HA RISC DE CREMAR L'ELECTRONICA!!!
+```
