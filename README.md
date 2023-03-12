@@ -32,6 +32,7 @@ Temperature = 20.39 °C
 Pressure = 1006.85 hPa
 Approx. Altitude = 103.14 m
 ```
+Quant faci dues pampalluges de color blau seguides i de forma intermitant vol dir que està generant els missatges correctament, els està enviant i emagatzemant. Altres codis de llums inidquen un mal funcionament, es recomana fer un reset de la placa amb el boto dedicat o apagar-la i tornar-la a encendre amb el boto dedicat.
 
 Les dades que es guarden a la SD de l'ordinador de bord tene el següent format
 ```
