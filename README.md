@@ -24,13 +24,14 @@ La següent imatge presenta la configuració clàssica de ordinador d'abord i el
 
 L'ordinador de bord un cop connectat al PC enviarà els següents missatges:
 
+'''
 Data Logged in SD Card
 LoRa Paquet Send Succesfully
 No Fix - Num. satellites: (Minimum 5)0
 Temperature = 20.39 °C
 Pressure = 1006.85 hPa
 Approx. Altitude = 103.14 m
-
+'''
 
 
 IMPORTANT, WARNINGS!:
