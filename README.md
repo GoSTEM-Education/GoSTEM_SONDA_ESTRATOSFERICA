@@ -45,7 +45,7 @@ Auesta es la frase que s'envia per LORA al receptor de terra i que serà guardat
 Per carregar el Ordinador de Bord seguir els següents passos:
 1. Connectar per USB a un ordinador la PCB. 
 2. De forma automàtica aquesta s'encen i es veurà la llum vermella de Power encesa. Fent servir el boto de PWR aguantar-lo i apagar la placa.
-3. No ha de quedar cap llum encesa, deixar connectat al ordinador apx entre 2 i 3 hores
+3. No ha de quedar cap llum encesa, deixar connectat al ordinador apx 2  hores
 4. Amb un mulímetre sense treure la bateria de la PCB i posant el punter del multimetre a cada un dels born exposats es pot veure com el voltage de la pila canvia. 
 5. Descarregada completament: 2.5V-3V // Carregada completament: 4.2 V
 
