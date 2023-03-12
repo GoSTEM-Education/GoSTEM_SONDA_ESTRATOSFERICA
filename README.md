@@ -20,3 +20,18 @@ Una delles està pensada per anar en el globus sonda i l'altre per rebre els mis
 La següent imatge presenta la configuració clàssica de ordinador d'abord i el receptor terrestre. Es requereix fer ús d'una baterial de LiPo 18650 per l'ordinador d'abord i una targa SD de 8 GB. També es recomanable posar un punt de sil·licona a les soldadures per garantir que no es faran malbé en el moment de l'impacte. 
 
 ![Setup d'Exemple](https://github.com/GoSTEM-Education/GoSTEM_SONDA_ESTRATOSFERICA/blob/main/setup_demo.jpg?raw=true)
+
+
+L'ordinador de bord un cop connectat al PC enviarà els següents missatges:
+
+Data Logged in SD Card
+LoRa Paquet Send Succesfully
+No Fix - Num. satellites: (Minimum 5)0
+Temperature = 20.39 °C
+Pressure = 1006.85 hPa
+Approx. Altitude = 103.14 m
+
+
+
+IMPORTANT, WARNINGS!:
+ES ESSENCIAL MAI ENCENDRE LA PLACA AMB LES ANTENES LORA I GPS DESCONECTADES. SI ES FA AIXÍ HI HA RISC DE CREMAR L'ELECTRONICA!!!
