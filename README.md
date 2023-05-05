@@ -11,6 +11,21 @@ Per fer funcionar correctament les plaques propcionades es important llegir la d
 
 https://github.com/Xinyuan-LilyGO/LilyGo-LoRa-Series?spm=a2g0o.detail.1000023.1.3f7415bbH3saRE
 
+En el seu repositori original trobareu la següent informació:
+"
+1. Instal·leu l'IDE d'Arduino actual al nivell 1.8 o posterior. La versió actual es troba al [lloc web d'Arduino](http://www.arduino.cc/en/main/software). (NOTA: és possible que MacOS requereixi que instal·leu controladors separats per interactuar amb el vostre tauler. Rebreu missatges d'error que es produeixen quan l'IDE intenta carregar codi. Hauríeu de considerar executar l'IDE Arduino en una màquina virtual a Linux. Instal·lar altres controladors a Linux. el vostre Mac està fora de l'abast d'aquest document.)
+2. Inicieu Arduino i obriu la finestra Preferències. Al gestor de taulers addicional, afegiu l'URL: `https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json` Si teniu diversos URL (p. ex., per a altres taulers), només heu d'afegir l'URL esmentat anteriorment , separats per una coma.
+3. Copieu totes les carpetes del directori `lib` al vostre Directori de biblioteques d'Arduino,
+- a MacOS, és `~/Documents/Arduino/libraries`
+- a Linux, és `~/Arduino/libraries`
+- a Windows, és `Documents/Arduino/libraries`
+4. Obriu l'exemple corresponent
+5. A l'aplicació Arduino, navegueu al menú Board Manager ("Eines => Board => Board Manager"), cerqueu `esp32` i assegureu-vos que instal·leu la darrera versió. Després de fer-ho, podeu seleccionar la placa que teniu de la llista de plaques al menú "ESP32 Arduino" ("Eines => Placa => ESP32 Arduino"). És molt important tenir en compte que la llista de taulers NO està en ordre alfabètic. Cerqueu amb cura el tauler amb el qual esteu treballant a la llista.
+6. Els usuaris de `T-Beam` poden triar `TTGO T-Beam`.
+7. Seleccioneu el port de la placa al port
+8. Descomenteu el fitxer `utility.h` a sobre de cada esbós basat en el vostre model de pissarra, en cas contrari, la compilació informarà d'un error
+9. Carrega el software a les plaques
+"
 Es requereix tenir Arduino IDE instal·lat i les llibreries que són necessaries per cada scritp.
 
 Les plaques que es fan servir són: T-BEAM i LyliGo LoRa V1.0
