@@ -26,6 +26,7 @@ En el seu repositori original trobareu la següent informació:
 8. Descomenteu el fitxer `utility.h` a sobre de cada esbós basat en el vostre model de pissarra, en cas contrari, la compilació informarà d'un error
 9. Carrega el software a les plaques
 "
+
 Es requereix tenir Arduino IDE instal·lat i les llibreries que són necessaries per cada scritp.
 
 Les plaques que es fan servir són: T-BEAM i LyliGo LoRa V1.0
